@@ -107,7 +107,7 @@ void handleRoot(){   //HTTP handler
 void setup() {
   Serial.begin(9600);
   servo.attach(2);  //GPIO2
-  WiFi.begin("NANI", "arvi1308");  //Wifi Connection
+  WiFi.begin("X", "y");  //Wifi Connection
   while (WiFi.status() != WL_CONNECTED) {
     delay(500);
     Serial.print(".");
