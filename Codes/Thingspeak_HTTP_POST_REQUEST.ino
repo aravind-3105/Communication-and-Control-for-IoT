@@ -1,6 +1,6 @@
 #include <DHT.h> 
 #include <ESP8266WiFi.h>
-
+//Aagas enjoy
 String API = "AEIJL417Z4JYRWBF";     //API key
 DHT dht(0, DHT11);  //GPIO0 refers to D3
 
