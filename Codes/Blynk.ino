@@ -4,7 +4,7 @@
 
 DHT dht(0, DHT11);
 BlynkTimer timer;
-
+//Aagas enjoy
 void read_from_DHT(){
   //First we check if value can be read or not to ensure before sending
   if(isnan(dht.readHumidity()))
