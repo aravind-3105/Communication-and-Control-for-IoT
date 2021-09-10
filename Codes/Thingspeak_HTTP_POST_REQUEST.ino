@@ -13,7 +13,7 @@ void setup()
 {
        Serial.begin(9600);  //Serial monitor with baud rate of 9600
        dht.begin();    
-       WiFi.begin("NANI", "arvi1308");  //Connect to WiFi
+       WiFi.begin("Y", "X");  //Connect to WiFi
        while(WiFi.status() != WL_CONNECTED) {
          delay(500);
          Serial.print(".");
