@@ -29,7 +29,7 @@ void read_from_DHT(){
 
 void setup(){
   Serial.begin(9600);
-  Blynk.begin("PDy7PNaI9FdTQpstdOTRaoX9MTCZ6B4I", "NANI","arvi1308");
+  Blynk.begin("PDy7PNaI9FdTQpstdOTRaoX9MTCZ6B4I", "Y","X");
   dht.begin();
   timer.setInterval(1000L,read_from_DHT);
 }
